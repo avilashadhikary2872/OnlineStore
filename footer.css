@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-top: 1px solid lightgrey;
+}
+
+.company_logo img {
+    width: 750px; /* Ensure the image takes up the full width of its container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.title_text {
+    font-size: 20px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.follow_us i {
+    margin: 5px; /* Add spacing between the icons */
+}
+
+.info p {
+    margin-bottom: 5px;
+}

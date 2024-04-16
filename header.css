@@ -1,0 +1,29 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    background-image: url(headerbanner.jpg);
+    user-select: none;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.navbar-header img {
+    border-radius:25px;
+    height: 30px;
+    width: 30px;
+    margin-right: 3%;
+}
+
+#a {
+    color: black;
+}
+
+.navbar-brand {
+    display:flex;
+    align-items: center;
+    color: black;
+    margin-left: 5%;
+    width: 160px;
+}
